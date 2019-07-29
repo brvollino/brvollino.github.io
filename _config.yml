@@ -13,21 +13,174 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-#email: your-email@domain.com
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+title: Bruno Vollino's Blog
+#logo: "/assets/logos/logo.svg" # Site logo, also used in jekyll-seo-tag
+description: >- # this means to ignore newlines until "baseurl:"
+  This is Bruno Vollino's blog. Here I will write about software development, programming AND random stuff.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-github_username:  brvollino
+#url: "https://bruno.vollino.com" # the base hostname & protocol for your site, e.g. http://example.com
+encoding: utf-8
+locale: en-US
+name: Bruno Vollino
+markdown_ext: "markdown,mkdown,mkdn,mkd,md"
+
+# Theme Settings
+minimal_mistakes_skin: "dirt"
+search                   : true
+search_provider          : # lunr (default), algolia, google
+
+# Social Sharing
+twitter:
+  username               :
+facebook:
+  username               :
+  app_id                 :
+  publisher              :
+og_image                 : # Open Graph/Twitter default site image
+
+# Site Author
+author:
+  name             : "Bruno Vollino"
+  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Mighty programmer"
+  location         : "Somewhere"
+  email            :
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/brvollino"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bruno-vollino"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/brvollino"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/bruno-vollino"
+
+# Conversion
+markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
+
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# Sass/SCSS
+sass:
+  sass_dir: _sass
+  style: compressed # http://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Outputting
+permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
+paginate: 5 # amount of posts to show
+paginate_path: /recent/page:num/
+excerpt_separator: <!-- more --> # Marks end of excerpt in posts
+timezone: America/Sao_Paulo # Timezone for blog posts and alike
 
 # Build settings
-markdown: kramdown
-theme: minima
-gems:
+#theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes@4.16.5
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
   - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
+# Archives
+#  Type
+#  - GitHub Pages compatible archive pages built with Liquid ~> type: liquid (default)
+#  - Jekyll Archives plugin archive pages ~> type: jekyll-archives
+#  Path (examples)
+#  - Archive page should exist at path when using Liquid method or you can
+#    expect broken links (especially with breadcrumbs enabled)
+#  - <base_path>/tags/my-awesome-tag/index.html ~> path: /tags/
+#  - <base_path/categories/my-awesome-category/index.html ~> path: /categories/
+#  - <base_path/my-awesome-category/index.html ~> path: /
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# HTML Compression
+# - http://jch.penibelst.de/
+compress_html:
+  clippings: all
+  ignore:
+    envs: development
+
+# Defaults
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+  # _pages
+  - scope:
+      path: ""
+      type: pages
+    values:
+      layout: single
+      author_profile: true
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+include:
+  - .htaccess
+  - _posts
+  - _pages
 exclude:
   - Gemfile
   - Gemfile.lock
+  - node_modules
+  - vendor
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - CNAME
+  - Gemfile
+  - Gemfile.lock
+  - Rakefile
+  - .jekyll-cache
+  - .asset-cache
+  - .bundle
+  - .jekyll-assets-cache
+  - .sass-cache
+  - assets/js/plugins
+  - assets/js/_main.js
+  - assets/js/vendor
+  - /docs # ignore Minimal Mistakes /docs
+  #- /test # ignore Minimal Mistakes /test
