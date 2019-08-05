@@ -11,21 +11,21 @@ Luckily, there are Gnome extensions available to fix that mess!
 
 If you've never installed Gnome extensions before, you may usually install them from your distro package repositories, or directly from the Gnome website.
 
-I like installing them from the website, because there are only a few extensions in my distro default repositories, and there they are usually outdated. If you want to to the same, you'll have to  install the Gnome extension integratinos for your browser.
+I prefer installing them from the website, because there are only a few extensions in my distro default repositories, and they are usually outdated. If you want to do the same, you'll have to setup the Gnome extension's integration for your browser.
 
-1. If you're using a Debian base distro and Chrome, you must ```sudo apt-get install chrome-gnome-shell```
+1. If you're using a Debian based distro and Chrome, you must ```sudo apt-get install chrome-gnome-shell```
 2. But if you're using a Debian based distro and Firefox, you must ```sudo apt-get install chrome-gnome-shell``` AND install the [GNOME Shell integration plugin][gnome-shell-integration]
 3. And if, perhaps, you're using anything else, I wish you the best of luck.
 
-Now you can go to the [Gnome extensions website](https://extensions.gnome.org/). If you use GNome Gnome in multiple computers, you probably want to create a Gnome account now, so you can synchronize your installed extensions.
+You can go to the [Gnome extensions website](https://extensions.gnome.org/) now. If you use Gnome in multiple computers, you probably want to create a Gnome account now, so you can synchronize your installed extensions.
 
-Finally, let's fix the damn notifications, right? Hell yeah.
+Now let's fix the damn notifications, right? Hell yeah.
 
 Install the [Notification Center](https://extensions.gnome.org/extension/1526/notification-centerselenium-h/) extension, so you will have a nice bell icon in your top bar if you have any unread notifications, and will get a dot indicator every time you have new unread messages.
 
-Finally, install the [Grown up notifications](https://extensions.gnome.org/extension/1335/grown-up-notifications/) extension, so Slack will stop deleting its notifications and then they will stop disappearing. I had to restart my computer to get this one working.
+Finally, install the [Grown up notifications](https://extensions.gnome.org/extension/1335/grown-up-notifications/) extension, so Slack will stop deleting its own notifications and they will stop disappearing from your notification area. I had to restart my computer to get this one working.
 
-Congratulations, you're the brand new owner of a beautiful notification center in your Gnome 3 desktop.
+That's all, congratulations, you're the brand new owner of a beautiful notification center in your Gnome 3 desktop.
 
 [gnome-shell-integration]: https://addons.mozilla.org/en-US/firefox/addon/gnome-shell-integration/
 [github]: https://github.com/
