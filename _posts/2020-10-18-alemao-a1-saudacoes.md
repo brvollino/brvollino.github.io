@@ -2,8 +2,9 @@
 layout: single
 title:  "Hallo! (Begrüßung) - Um resumo de saudações em alemão"
 date:   "2020-10-18T16:17:00"
-category: german
-tags: alemão,a1
+tags:
+  - Alemão
+  - A1
 ---
 
 # Hallo! : Begrüßung
