@@ -95,7 +95,7 @@ timezone: Europe/Vienna # Timezone for blog posts and alike
 
 # Build settings
 #theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes@4.16.5
+remote_theme: mmistakes/minimal-mistakes@4.20.2
 plugins:
   - jekyll-paginate
   - jekyll-sitemap

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "How to test if an overriden TypeScript super class method has been called in the child class"
-date:   2019-08-21 21:14:00 -0300
+date:   "2019-08-21T21:14:00"
 ---
 Here is how to test if a child class has called the super class method it has overriden.
 

@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "Improving Gnome notifications"
-date:   2019-08-04 23:24:00 -0300
+date:   "2019-08-04T23:24:00"
 ---
 I've moved from the Slack Electron app to its web version, because the Slack window was constantly breaking in my desktop. It works better in the browser, but I was really missing the new message's icon in my desktop.
 

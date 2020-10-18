@@ -1,7 +1,7 @@
 ---
 layout: single
 title:  "First commit"
-date:   2019-07-28 21:35:00 -0300
+date:   "2019-07-28T21:35:00"
 ---
 Welcome, this is my first blog post ever! I'm planning to post here in a weekly basis, about my readings, experiments and projects.
 
