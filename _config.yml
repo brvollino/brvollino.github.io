@@ -67,7 +67,7 @@ footer:
 markdown: kramdown
 highlighter: rouge
 lsi: false
-excerpt_separator: "\n\n"
+#excerpt_separator: "\n\n"
 incremental: false
 
 # Markdown Processing
@@ -91,7 +91,7 @@ permalink: pretty  # Permalink style (/YYYY/MM/DD/page-name/)
 paginate: 5 # amount of posts to show
 paginate_path: /recent/page:num/
 excerpt_separator: <!-- more --> # Marks end of excerpt in posts
-timezone: America/Sao_Paulo # Timezone for blog posts and alike
+timezone: Europe/Vienna # Timezone for blog posts and alike
 
 # Build settings
 #theme: minimal-mistakes-jekyll
