@@ -35,5 +35,5 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo-data"
 end
 
-gem "rake", "~> 10.0"
+gem "rake", "~> 12.3"
 gem "bundler"
