@@ -8,7 +8,6 @@ tags:
 ---
 
 # Hallo! : Begrüßung
-
 Um resumo pessoal para referência de saudações em Alemão.
 
 ## Formell - Formal
@@ -51,15 +50,13 @@ Ex: Guten tag, Frau Jacobi.
 - der / die / das / die - masculino / feminino / neutro / plural
 
 ## Exercícios
-
 > Guten Tag, Frau Kamp, wie geth es Ihnen?
-> Guten Tag, Herr Mühller. Danke, gut. Und Ihnen?
-> Na ja, es geht mir nicht so gut.
-
+Guten Tag, Herr Mühller. Danke, gut. Und Ihnen?
+Na ja, es geht mir nicht so gut.
 
 > Hey Lena, Na, wie geht's?
-> Super, und dier?
-> Auch sehr gut!
+Super, und dier?
+Auch sehr gut!
 
 ## Vocabulário
 - Uhr - hora
