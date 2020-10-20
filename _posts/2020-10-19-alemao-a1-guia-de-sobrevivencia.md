@@ -1,14 +1,16 @@
 ---
 layout: single
-title:  "Kein Problem! - Um guia de sobrevivência em Alemão"
+title:  "Um guia de sobrevivência em Alemão"
 date:   "2020-10-19T22:41:00"
 tags:
   - Alemão
   - A1
 ---
 
-# Kein Problem!
-Um guia de sobreviência em Alemão.
+# Alemão A1 - Um Guia de sobrevivência
+Continuando meus estudos da língua Alemã através do curso online da Deutsche Welle (ver fontes), fiz esse pequeno resumo.
+
+O resumo é para meu uso pessoal, não espere organização e use por sua conta e risco :smile:.
 
 # Sinais
 - Bus
@@ -69,10 +71,11 @@ Hier ist das Restaurant.
 > wo ist das Museum?
 hier ist das Museum.
 
-## Pronomes relativos
+## Pronomes
 - wo - onde
 - wie - como
 - was - o que
+- welcher - qual
 
 ## Verbos
 - ist - é / está (ser/estar - 3ª pessoa singular)
@@ -114,8 +117,9 @@ hier ist das Museum.
 - Büro - escritório
 - Sind - são
 - nur - somente
+- Hilfe - ajuda (help)
 
 ## Fontes 
-[Kein Problem! - Curso A1 da Deutsche Welle](https://learngerman.dw.com/pt-br/kein-problem/l-46038672)
+[A1 Folge 2: Kein Problem! - Curso da Deutsche Welle](https://learngerman.dw.com/pt-br/kein-problem/l-46038672)
 [Verbo sein](https://www.infoescola.com/alemao/verbo-sein/)
 [Pronomes pessoais](https://www.infoescola.com/alemao/pronomes-pessoais-em-alemao-personalpronomen/)

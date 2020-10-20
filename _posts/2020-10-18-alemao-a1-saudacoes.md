@@ -1,14 +1,16 @@
 ---
 layout: single
-title:  "Hallo! (Begrüßung) - Um resumo de saudações em alemão"
+title:  "Begrüßung - Um resumo de saudações em alemão"
 date:   "2020-10-18T16:17:00"
 tags:
   - Alemão
   - A1
 ---
 
-# Hallo! : Begrüßung
-Um resumo pessoal para referência de saudações em Alemão.
+# Alemão A1 - Begrüßung - Um resumo de saudações em alemão
+Estou iniciando meus estudos da língua Alemã através de um curso online da Deutsche Welle (ver fontes).
+
+Este é um resumo baseado na primeira lição do curso e é para meu uso pessoal, não espere organização e use por sua conta e risco :smile:.
 
 ## Formell - Formal
 - Wie geht es Ihnen?
@@ -79,4 +81,4 @@ Auch sehr gut!
 - dir - você
 
 ## Fontes 
-[Hallo! - Curso A1 da Deutsche Welle](https://learngerman.dw.com/pt-br/hallo/l-46005378)
+[A1 Folge 1: Hallo! - Curso da Deutsche Welle](https://learngerman.dw.com/pt-br/hallo/l-46005378)
