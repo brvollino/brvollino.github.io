@@ -23,7 +23,7 @@ Não espere organização e use por sua conta e risco :smile:.
 - Wir sehen uns!
 
 ## Ambos
-- Güte Reise
+- Gute Reise
 
 ## No comércio
 - Einen schönen Tag noch!
