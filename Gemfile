@@ -11,7 +11,7 @@ source "https://rubygems.org"
 #gem "jekyll", "~> 3.8"
 
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
-gem "minimal-mistakes-jekyll", "~> 4.20.2"
+gem "minimal-mistakes-jekyll", "~> 4.24.0"
 
 # If you want to use GitHub Pages, remove the "gem "jekyll"" above and
 # uncomment the line below. To upgrade, run `bundle update github-pages`.
@@ -35,5 +35,5 @@ install_if -> { RUBY_PLATFORM =~ %r!mingw|mswin|java! } do
   gem "tzinfo-data"
 end
 
-gem "rake", "~> 12.3"
+gem "rake", "~> 13.0.6"
 gem "bundler"
